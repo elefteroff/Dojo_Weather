@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(159,197,248);
+    display: flex;
+}
+
+h1{
+color: white;
+padding-left: 100px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-right: 130px;
+}
+
+.cities{
+    display: flex;
+    padding-top: 7px;
+    padding-right: 100px;
+}
+
+h4{
+color: white;
+margin: 10px;
+}
+
+.maincontainer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.subheader{
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+h2{
+
+}
+
+.temp{
+    padding-left: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 200px;
+    display: flex;
+}
+
+#showtemp{
+    margin-top: 0px;
+    margin-right: 7px;
+}
+
+select{
+    border: 2px solid black;
+}
+
+p{
+    margin-top: 10px;
+}
+
+img{
+    max-width: 90px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.week{
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.days{
+background-color: rgb(238,238,238);
+width: 120px;
+height: 220px;
+text-align: center;
+}
+
+h3{
+    margin-top: 10px;;
+}
+
+.high_lowTemps{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.highTemp{
+    color: rgb(207,42,39);
+
+}
+
+.lowTemp{
+    color: rgb(43,120,228);
+}
+
+.cookieDisclaimerBox{
+    background-color: rgb(238,238,238);
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    align-items: center;
+    position: fixed;
+    margin-right: 100px;
+    margin-top: 5px
+}
+
+#cookieImg{
+    max-height: 50px;
+    margin-top: 5px;
+}
+
+.cookiemsg{
+    margin-top: 0px;
+}
+
+#stop{
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: 0px;
+}
+
+#msg{
+    font-size: 13px;
+    margin-right: 40px;
+    margin-left: 18px;
+    margin-top: 3px;
+}
+
+button{
+    background-color: rgb(159,197,248);
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 135px;
+    padding: 5px;
+    box-shadow: 3px 3px;
+}
